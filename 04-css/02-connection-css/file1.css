@@ -1,0 +1,11 @@
+/* 1. по імені */
+h1 {
+    background-color: blanchedalmond;
+}
+/* 2. ідентифікатор */
+#p1 {
+    color: darkcyan;
+}
+#p2 {
+    color: burlywood;
+}

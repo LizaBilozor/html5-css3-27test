@@ -1,0 +1,33 @@
+h1 {
+    color: aquamarine;
+}
+footer{
+    background-color: skyblue;
+}
+/*3. по класах*/
+.fond-18 {
+    font-size: 18px;
+    text-shadow: 0 0 5px green;
+}
+.shadow-red {
+    text-shadow: 0 0 5px red;
+}
+/*4. Групування селекторів */
+h2, h3, h4 {
+font-size: 30px;
+}
+/*5. Нащадки */
+header p {
+    text-decoration: underline;
+}
+.section-2 p {
+    text-decoration: line-through;
+}
+/*6. Діти, батьки */
+main > p {
+    background-color: yellow;
+}
+/*7. Сусіди*/
+section + p {
+    background-color: blueviolet;
+}
